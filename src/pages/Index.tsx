@@ -8,7 +8,6 @@ import demoWalls from "@/assets/demo-walls.jpg";
 import demoBathroom from "@/assets/demo-bathroom.jpg";
 
 const advantages = [
-  { icon: Shield, title: "Гарантия качества", desc: "Все работы выполняются по договору с гарантией" },
   { icon: Clock, title: "Точные сроки", desc: "Соблюдаем оговоренные сроки демонтажа" },
   { icon: Truck, title: "Вывоз мусора", desc: "Уборка и вывоз строительного мусора включены" },
   { icon: BadgeCheck, title: "Опыт 10+ лет", desc: "Профессиональная команда с большим опытом" },
