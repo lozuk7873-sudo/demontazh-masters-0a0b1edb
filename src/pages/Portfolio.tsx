@@ -1,5 +1,6 @@
 import { Star } from "lucide-react";
 import beforeAfter1 from "@/assets/before-after-1.jpg";
+import demoFullRoom from "@/assets/demo-full-room.jpg";
 import beforeAfter2 from "@/assets/before-after-2.jpg";
 import gazelleTruck from "@/assets/gazelle-truck.jpg";
 import demoBrickWall from "@/assets/demo-brick-wall.jpg";
@@ -14,7 +15,7 @@ const gallery = [
   { img: demoBathroom, title: "Демонтаж ванной комнаты" },
   { img: demoKitchen, title: "Демонтаж кухни" },
   { img: demoApartment, title: "Комплексный демонтаж квартиры" },
-  { img: beforeAfter1, title: "Полный демонтаж помещения" },
+  { img: demoFullRoom, title: "Полный демонтаж помещения" },
 ];
 
 const reviews = [
