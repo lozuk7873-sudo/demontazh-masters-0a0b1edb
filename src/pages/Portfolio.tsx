@@ -15,7 +15,7 @@ const gallery = [
   { img: demoBathroom, title: "Демонтаж ванной комнаты" },
   { img: demoKitchen, title: "Демонтаж кухни" },
   { img: demoApartment, title: "Комплексный демонтаж квартиры" },
-  { img: beforeAfter1, title: "Полный демонтаж помещения" },
+  { img: demoFullRoom, title: "Полный демонтаж помещения" },
 ];
 
 const reviews = [
