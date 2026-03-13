@@ -1,14 +1,14 @@
 import { Star } from "lucide-react";
 import beforeAfter1 from "@/assets/before-after-1.jpg";
 import beforeAfter2 from "@/assets/before-after-2.jpg";
-import demoWalls from "@/assets/demo-walls.jpg";
+import gazelleTruck from "@/assets/gazelle-truck.jpg";
 import demoFloor from "@/assets/demo-floor.jpg";
 import demoBathroom from "@/assets/demo-bathroom.jpg";
 import demoKitchen from "@/assets/demo-kitchen.jpg";
 import heroImg from "@/assets/hero-demolition.jpg";
 
 const gallery = [
-  { img: demoWalls, title: "Демонтаж кирпичной стены" },
+  { img: gazelleTruck, title: "Демонтаж кирпичной стены" },
   { img: demoFloor, title: "Снятие напольного покрытия" },
   { img: demoBathroom, title: "Демонтаж ванной комнаты" },
   { img: demoKitchen, title: "Демонтаж кухни" },
