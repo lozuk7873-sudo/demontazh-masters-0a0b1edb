@@ -120,10 +120,6 @@ const About = () => (
                 <div className="w-2 h-2 bg-primary rounded-full mt-2 shrink-0" />
                 Штат из 15+ квалифицированных специалистов
               </li>
-              <li className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-primary rounded-full mt-2 shrink-0" />
-                Сотрудничаем с ведущими строительными компаниями Минска
-              </li>
             </ul>
           </div>
         </div>
