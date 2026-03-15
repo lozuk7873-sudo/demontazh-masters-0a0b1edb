@@ -53,7 +53,6 @@ const Portfolio = () => (
               <div className="h-56 overflow-hidden relative">
                 <img src={g.img} alt={g.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 <div className="absolute inset-0 bg-background/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                  <span className="font-heading text-sm text-primary tracking-wider">{g.title}</span>
                 </div>
               </div>
             </div>
