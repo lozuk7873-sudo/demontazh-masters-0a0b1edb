@@ -7,14 +7,14 @@ import demoFloor from "@/assets/demo-floor.jpg";
 import demoBathroom from "@/assets/demo-bathroom.jpg";
 import demoBathroomNew from "@/assets/demo-bathroom-new.jpg";
 import demoKitchen from "@/assets/demo-kitchen.jpg";
-import heroImg from "@/assets/hero-demolition.jpg";
+import demoApartment from "@/assets/demo-apartment.jpg";
 
 const gallery = [
   { img: demoBrickWall, title: "Демонтаж кирпичной стены" },
   { img: demoFloor, title: "Снятие напольного покрытия" },
   { img: demoBathroomNew, title: "Демонтаж ванной комнаты" },
   { img: demoKitchen, title: "Демонтаж кухни" },
-  { img: heroImg, title: "Комплексный демонтаж квартиры" },
+  { img: demoApartment, title: "Комплексный демонтаж квартиры" },
   { img: beforeAfter1, title: "Полный демонтаж помещения" },
 ];
 
