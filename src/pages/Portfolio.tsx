@@ -12,7 +12,7 @@ import heroImg from "@/assets/hero-demolition.jpg";
 
 const gallery = [
   { img: demoBrickWall, title: "Демонтаж кирпичной стены" },
-  { img: demoFloor, title: "Снятие напольного покрытия" },
+  { img: demoFloorNew, title: "Снятие напольного покрытия" },
   { img: demoBathroomNew, title: "Демонтаж ванной комнаты" },
   { img: demoKitchen, title: "Демонтаж кухни" },
   { img: heroImg, title: "Комплексный демонтаж квартиры" },
