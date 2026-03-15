@@ -5,6 +5,7 @@ import gazelleTruck from "@/assets/gazelle-truck.jpg";
 import demoBrickWall from "@/assets/demo-brick-wall.jpg";
 import demoFloor from "@/assets/demo-floor.jpg";
 import demoBathroom from "@/assets/demo-bathroom.jpg";
+import demoBathroomNew from "@/assets/demo-bathroom-new.jpg";
 import demoKitchen from "@/assets/demo-kitchen.jpg";
 import heroImg from "@/assets/hero-demolition.jpg";
 
