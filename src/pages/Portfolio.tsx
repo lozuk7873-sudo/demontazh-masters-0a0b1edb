@@ -4,7 +4,6 @@ import beforeAfter2 from "@/assets/before-after-2.jpg";
 import gazelleTruck from "@/assets/gazelle-truck.jpg";
 import demoBrickWall from "@/assets/demo-brick-wall.jpg";
 import demoFloor from "@/assets/demo-floor.jpg";
-import demoFloorNew from "@/assets/demo-floor-new.jpg";
 import demoBathroom from "@/assets/demo-bathroom.jpg";
 import demoBathroomNew from "@/assets/demo-bathroom-new.jpg";
 import demoKitchen from "@/assets/demo-kitchen.jpg";
@@ -12,7 +11,7 @@ import heroImg from "@/assets/hero-demolition.jpg";
 
 const gallery = [
   { img: demoBrickWall, title: "Демонтаж кирпичной стены" },
-  { img: demoFloorNew, title: "Снятие напольного покрытия" },
+  { img: demoFloor, title: "Снятие напольного покрытия" },
   { img: demoBathroomNew, title: "Демонтаж ванной комнаты" },
   { img: demoKitchen, title: "Демонтаж кухни" },
   { img: heroImg, title: "Комплексный демонтаж квартиры" },
@@ -51,8 +50,11 @@ const Portfolio = () => (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {gallery.map((g) => (
             <div key={g.title} className="group bg-card border border-border rounded-lg overflow-hidden card-hover">
-              <div className="h-56 overflow-hidden">
+              <div className="h-56 overflow-hidden relative">
                 <img src={g.img} alt={g.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                <div className="absolute inset-0 bg-background/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                  <span className="font-heading text-sm text-primary tracking-wider">{g.title}</span>
+                </div>
               </div>
             </div>
           ))}
