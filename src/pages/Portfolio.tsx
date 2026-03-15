@@ -4,6 +4,7 @@ import beforeAfter2 from "@/assets/before-after-2.jpg";
 import gazelleTruck from "@/assets/gazelle-truck.jpg";
 import demoBrickWall from "@/assets/demo-brick-wall.jpg";
 import demoFloor from "@/assets/demo-floor.jpg";
+import demoFloorNew from "@/assets/demo-floor-new.jpg";
 import demoBathroom from "@/assets/demo-bathroom.jpg";
 import demoBathroomNew from "@/assets/demo-bathroom-new.jpg";
 import demoKitchen from "@/assets/demo-kitchen.jpg";
