@@ -50,10 +50,8 @@ const Portfolio = () => (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {gallery.map((g) => (
             <div key={g.title} className="group bg-card border border-border rounded-lg overflow-hidden card-hover">
-              <div className="h-56 overflow-hidden relative">
+              <div className="h-56 overflow-hidden">
                 <img src={g.img} alt={g.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                <div className="absolute inset-0 bg-background/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                </div>
               </div>
             </div>
           ))}
