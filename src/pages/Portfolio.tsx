@@ -9,7 +9,7 @@ import demoKitchen from "@/assets/demo-kitchen.jpg";
 import heroImg from "@/assets/hero-demolition.jpg";
 
 const gallery = [
-  { img: gazelleTruck, title: "Демонтаж кирпичной стены" },
+  { img: demoBrickWall, title: "Демонтаж кирпичной стены" },
   { img: demoFloor, title: "Снятие напольного покрытия" },
   { img: demoBathroom, title: "Демонтаж ванной комнаты" },
   { img: demoKitchen, title: "Демонтаж кухни" },
