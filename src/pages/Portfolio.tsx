@@ -14,7 +14,7 @@ const gallery = [
   { img: demoFloor, title: "Снятие напольного покрытия" },
   { img: demoBathroomNew, title: "Демонтаж ванной комнаты" },
   { img: demoKitchen, title: "Демонтаж кухни" },
-  { img: heroImg, title: "Комплексный демонтаж квартиры" },
+  { img: demoApartment, title: "Комплексный демонтаж квартиры" },
   { img: beforeAfter1, title: "Полный демонтаж помещения" },
 ];
 
