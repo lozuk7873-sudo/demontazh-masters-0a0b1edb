@@ -7,7 +7,7 @@ import demoFloor from "@/assets/demo-floor.jpg";
 import demoBathroom from "@/assets/demo-bathroom.jpg";
 import demoBathroomNew from "@/assets/demo-bathroom-new.jpg";
 import demoKitchen from "@/assets/demo-kitchen.jpg";
-import heroImg from "@/assets/hero-demolition.jpg";
+import demoApartment from "@/assets/demo-apartment.jpg";
 
 const gallery = [
   { img: demoBrickWall, title: "Демонтаж кирпичной стены" },
