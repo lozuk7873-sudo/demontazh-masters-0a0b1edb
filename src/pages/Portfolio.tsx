@@ -1,5 +1,6 @@
 import { Star } from "lucide-react";
 import beforeAfter1 from "@/assets/before-after-1.jpg";
+import portfolioDemoRoom from "@/assets/portfolio-demo-room.jpg";
 import beforeAfter2 from "@/assets/before-after-2.jpg";
 import gazelleTruck from "@/assets/gazelle-truck.jpg";
 import demoBrickWall from "@/assets/demo-brick-wall.jpg";
