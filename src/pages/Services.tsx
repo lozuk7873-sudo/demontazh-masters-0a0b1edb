@@ -9,6 +9,7 @@ import demoKitchen from "@/assets/demo-kitchen.jpg";
 import heroImg from "@/assets/hero-demolition.jpg";
 import demoCeiling from "@/assets/demo-ceiling.jpg";
 import gazelleTruck from "@/assets/gazelle-truck.jpg";
+import demoTrashTruck from "@/assets/demo-trash-truck.jpg";
 
 const services = [
   {
