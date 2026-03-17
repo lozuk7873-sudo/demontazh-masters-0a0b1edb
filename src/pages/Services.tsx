@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
 import demoWalls from "@/assets/demo-walls.jpg";
+import demoWindows from "@/assets/demo-windows.jpg";
 import demoFloor from "@/assets/demo-floor.jpg";
 import demoBathroom from "@/assets/demo-bathroom.jpg";
 import demoKitchen from "@/assets/demo-kitchen.jpg";
@@ -35,7 +36,7 @@ const services = [
     items: ["Демонтаж кухонных гарнитуров", "Снятие кухонного фартука", "Демонтаж столешниц", "Удаление встроенной техники", "Демонтаж вытяжек"],
   },
   {
-    img: demoWalls,
+    img: demoWindows,
     title: "Демонтаж окон и дверей",
     items: ["Демонтаж оконных блоков", "Снятие дверных коробок", "Удаление подоконников", "Демонтаж балконных блоков", "Расширение оконных проёмов"],
   },
