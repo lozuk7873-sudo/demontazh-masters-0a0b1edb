@@ -6,6 +6,7 @@ import demoFloor from "@/assets/demo-floor.jpg";
 import demoBathroom from "@/assets/demo-bathroom.jpg";
 import demoKitchen from "@/assets/demo-kitchen.jpg";
 import heroImg from "@/assets/hero-demolition.jpg";
+import demoCeiling from "@/assets/demo-ceiling.jpg";
 
 const services = [
   {
