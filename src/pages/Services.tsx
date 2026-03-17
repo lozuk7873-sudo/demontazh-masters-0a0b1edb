@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
 import demoWalls from "@/assets/demo-walls.jpg";
+import demoWindows from "@/assets/demo-windows.jpg";
 import demoFloor from "@/assets/demo-floor.jpg";
 import demoBathroom from "@/assets/demo-bathroom.jpg";
 import demoKitchen from "@/assets/demo-kitchen.jpg";
