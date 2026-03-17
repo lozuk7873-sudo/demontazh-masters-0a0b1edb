@@ -14,7 +14,7 @@ const gallery = [
   { img: demoBrickWall, title: "Демонтаж кирпичной стены" },
   { img: demoFloor, title: "Снятие напольного покрытия" },
   { img: demoBathroomNew, title: "Демонтаж ванной комнаты" },
-  { img: demoKitchen, title: "Демонтаж кухни" },
+  { img: portfolioKitchen, title: "Демонтаж кухни" },
   { img: demoApartment, title: "Комплексный демонтаж квартиры" },
   { img: portfolioDemoRoom, title: "Полный демонтаж помещения" },
 ];
