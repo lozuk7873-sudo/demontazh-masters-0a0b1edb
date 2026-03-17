@@ -6,6 +6,7 @@ import demoFloor from "@/assets/demo-floor.jpg";
 import demoBathroom from "@/assets/demo-bathroom.jpg";
 import demoKitchen from "@/assets/demo-kitchen.jpg";
 import heroImg from "@/assets/hero-demolition.jpg";
+import demoCeiling from "@/assets/demo-ceiling.jpg";
 
 const services = [
   {
@@ -19,7 +20,7 @@ const services = [
     items: ["Снятие паркета и ламината", "Демонтаж плитки и кафеля", "Удаление стяжки пола", "Снятие линолеума", "Демонтаж деревянных полов"],
   },
   {
-    img: heroImg,
+    img: demoCeiling,
     title: "Демонтаж потолков",
     items: ["Снятие натяжных потолков", "Демонтаж подвесных конструкций", "Удаление штукатурки с потолка", "Демонтаж реечных потолков", "Очистка потолков до бетона"],
   },
