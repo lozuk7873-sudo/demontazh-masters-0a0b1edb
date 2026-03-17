@@ -9,6 +9,7 @@ import demoKitchen from "@/assets/demo-kitchen.jpg";
 import heroImg from "@/assets/hero-demolition.jpg";
 import demoCeiling from "@/assets/demo-ceiling.jpg";
 import gazelleTruck from "@/assets/gazelle-truck.jpg";
+import demoTrashTruck from "@/assets/demo-trash-truck.jpg";
 
 const services = [
   {
@@ -42,7 +43,7 @@ const services = [
     items: ["Демонтаж оконных блоков", "Снятие дверных коробок", "Удаление подоконников", "Демонтаж балконных блоков", "Расширение оконных проёмов"],
   },
   {
-    img: gazelleTruck,
+    img: demoTrashTruck,
     title: "Вывоз строительного мусора",
     items: ["Вывоз мусора после демонтажа", "Погрузка и транспортировка", "Вывоз крупногабаритных отходов", "Уборка территории после работ", "Утилизация строительных отходов"],
   },
