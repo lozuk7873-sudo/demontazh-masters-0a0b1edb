@@ -101,7 +101,7 @@ const Index = () => (
     </section>
 
     {/* Contact */}
-    <section className="section-padding">
+    <section id="contact-form" className="section-padding">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
