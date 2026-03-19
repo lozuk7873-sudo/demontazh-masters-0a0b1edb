@@ -22,23 +22,14 @@ const Header = () => {
     <>
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto flex items-center justify-between h-16 md:h-20">
-          <div className="flex items-center gap-4">
-            <Link to="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary flex items-center justify-center font-heading font-bold text-primary-foreground text-xl">
-                Д
-              </div>
-              <span className="font-heading text-lg md:text-xl font-semibold text-foreground tracking-wider">
-                ДЕМОНТАЖ<span className="text-primary">МИНСК</span>
-              </span>
-            </Link>
-            <Button
-              onClick={() => setFormOpen(true)}
-              size="sm"
-              className="bg-primary text-primary-foreground hover:bg-primary/90 font-heading tracking-wider text-xs px-4"
-            >
-              ОСТАВИТЬ ЗАЯВКУ
-            </Button>
-          </div>
+          <Link to="/" className="flex items-center gap-2">
+            <div className="w-10 h-10 bg-primary flex items-center justify-center font-heading font-bold text-primary-foreground text-xl">
+              Д
+            </div>
+            <span className="font-heading text-lg md:text-xl font-semibold text-foreground tracking-wider">
+              ДЕМОНТАЖ<span className="text-primary">МИНСК</span>
+            </span>
+          </Link>
 
           <nav className="hidden lg:flex items-center gap-8">
             {navItems.map((item) => (
