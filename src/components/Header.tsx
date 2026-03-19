@@ -50,6 +50,13 @@ const Header = () => {
               <Phone className="w-4 h-4" />
               +375 (44) 555-45-42
             </a>
+            <Button
+              onClick={() => setFormOpen(true)}
+              size="sm"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 font-heading tracking-wider text-xs px-4"
+            >
+              ОСТАВИТЬ ЗАЯВКУ
+            </Button>
           </div>
 
           <button
