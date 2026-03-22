@@ -46,9 +46,9 @@ const Header = () => {
           </nav>
 
           <div className="hidden md:flex items-center gap-4">
-            <a href="tel:+375445554542" className="flex items-center gap-2 text-primary font-heading text-sm tracking-wider">
+            <a href="tel:+375259329404" className="flex items-center gap-2 text-primary font-heading text-sm tracking-wider">
               <Phone className="w-4 h-4" />
-              +375 (44) 555-45-42
+              +375 (25) 932-94-04
             </a>
             <Button
               onClick={() => setFormOpen(true)}
@@ -82,9 +82,9 @@ const Header = () => {
                   {item.label}
                 </Link>
               ))}
-              <a href="tel:+375445554542" className="flex items-center gap-2 text-primary font-heading text-sm tracking-wider">
+              <a href="tel:+375259329404" className="flex items-center gap-2 text-primary font-heading text-sm tracking-wider">
                 <Phone className="w-4 h-4" />
-                +375 (44) 555-45-42
+                +375 (25) 932-94-04
               </a>
               <button
                 onClick={() => { setFormOpen(true); setIsOpen(false); }}

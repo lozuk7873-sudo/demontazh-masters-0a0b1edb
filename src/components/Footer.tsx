@@ -28,8 +28,8 @@ const Footer = () => (
         <div>
           <h4 className="font-heading text-sm tracking-wider text-primary mb-4">КОНТАКТЫ</h4>
           <div className="flex flex-col gap-3">
-            <a href="tel:+375445554542" className="flex items-center gap-2 text-muted-foreground text-sm hover:text-primary transition-colors">
-              <Phone className="w-4 h-4 text-primary" /> +375 (44) 555-45-42
+            <a href="tel:+375259329404" className="flex items-center gap-2 text-muted-foreground text-sm hover:text-primary transition-colors">
+              <Phone className="w-4 h-4 text-primary" /> +375 (25) 932-94-04
             </a>
             <div className="flex items-center gap-2 text-muted-foreground text-sm">
               <MapPin className="w-4 h-4 text-primary" /> г. Минск, Беларусь

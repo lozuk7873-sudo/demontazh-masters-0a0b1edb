@@ -43,7 +43,7 @@ const Index = () => (
               <Link to="/services">НАШИ УСЛУГИ</Link>
             </Button>
             <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary/10 font-heading tracking-wider text-base px-8 py-6">
-              <a href="tel:+375445554542">
+              <a href="tel:+375259329404">
                 <Phone className="w-4 h-4 mr-2" />
                 ПОЗВОНИТЬ
               </a>
@@ -114,8 +114,8 @@ const Index = () => (
             </p>
             <div className="flex items-center gap-3 mb-2">
               <Phone className="w-5 h-5 text-primary" />
-              <a href="tel:+375445554542" className="text-foreground font-heading text-lg hover:text-primary transition-colors">
-                +375 (44) 555-45-42
+              <a href="tel:+375259329404" className="text-foreground font-heading text-lg hover:text-primary transition-colors">
+                +375 (25) 932-94-04
               </a>
             </div>
           </div>
