@@ -107,9 +107,9 @@ const Services = () => (
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 font-heading tracking-wider px-8 py-6">
-            <a href="tel:+375445554542">
+            <a href="tel:+375259329404">
               <Phone className="w-4 h-4 mr-2" />
-              +375 (44) 555-45-42
+              +375 (25) 932-94-04
             </a>
           </Button>
           <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary/10 font-heading tracking-wider px-8 py-6">

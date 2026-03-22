@@ -120,7 +120,7 @@ const Pricing = () => (
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 font-heading tracking-wider px-8 py-6">
-            <a href="tel:+375445554542">
+            <a href="tel:+375259329404">
               <Phone className="w-4 h-4 mr-2" />
               БЕСПЛАТНАЯ ОЦЕНКА
             </a>
