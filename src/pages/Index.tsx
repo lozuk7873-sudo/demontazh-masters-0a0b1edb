@@ -43,9 +43,8 @@ const Index = () => (
               <Link to="/services">НАШИ УСЛУГИ</Link>
             </Button>
             <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary/10 font-heading tracking-wider text-base px-8 py-6">
-              <a href="tel:+375259329404">
-                <Phone className="w-4 h-4 mr-2" />
-                ПОЗВОНИТЬ
+              <a href="#contact-form">
+                ОСТАВИТЬ ЗАЯВКУ
               </a>
             </Button>
           </div>
