@@ -3,7 +3,7 @@ import { Shield, Clock, Truck, BadgeCheck, Phone, ArrowRight } from "lucide-reac
 import { Button } from "@/components/ui/button";
 import ContactForm from "@/components/ContactForm";
 import heroImg from "@/assets/hero-demolition.jpg";
-import demoApartment from "@/assets/demo-apartment.jpg";
+import portfolioDemoRoom from "@/assets/portfolio-demo-room.jpg";
 import demoWalls from "@/assets/demo-walls.jpg";
 import demoBathroom from "@/assets/demo-bathroom.jpg";
 
@@ -17,7 +17,7 @@ const advantages = [
 const services = [
   { img: demoWalls, title: "Демонтаж стен", desc: "Снос перегородок и несущих конструкций" },
   { img: demoBathroom, title: "Демонтаж сантехники", desc: "Демонтаж ванн, унитазов, раковин" },
-  { img: demoApartment, title: "Полный демонтаж", desc: "Комплексный демонтаж квартир под ключ" },
+  { img: portfolioDemoRoom, title: "Полный демонтаж", desc: "Комплексный демонтаж квартир под ключ" },
 ];
 
 const Index = () => (
