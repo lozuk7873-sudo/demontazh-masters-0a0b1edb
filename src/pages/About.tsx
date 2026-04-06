@@ -1,5 +1,5 @@
 import { Target, Eye, Award, Users, Hammer, ShieldCheck } from "lucide-react";
-import teamImg from "@/assets/team-work.jpg";
+import toolsImg from "@/assets/demolition-tools.jpg";
 
 const values = [
   { icon: ShieldCheck, title: "Безопасность", desc: "Строгое соблюдение техники безопасности на каждом объекте" },
@@ -20,7 +20,7 @@ const About = () => (
     {/* Hero */}
     <section className="relative h-[50vh] flex items-center">
       <div className="absolute inset-0">
-        <img src={teamImg} alt="Команда ДемонтажМинск" className="w-full h-full object-cover" />
+        <img src={toolsImg} alt="Инструменты для демонтажа" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-background/85" />
       </div>
       <div className="relative container mx-auto px-4">
@@ -96,7 +96,7 @@ const About = () => (
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="rounded-lg overflow-hidden">
-            <img src={teamImg} alt="Команда за работой" className="w-full h-80 object-cover" />
+            <img src={toolsImg} alt="Профессиональное оборудование" className="w-full h-80 object-cover" />
           </div>
           <div>
             <Hammer className="w-10 h-10 text-primary mb-4" />
