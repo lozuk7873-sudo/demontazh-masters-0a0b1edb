@@ -36,6 +36,7 @@ const Footer = () => (
             </div>
             <div className="flex items-center gap-2 text-muted-foreground text-sm">
               <Clock className="w-4 h-4 text-primary" /> Пн-Сб: 8:00 - 20:00
+            </div>
           </div>
         </div>
       </div>
