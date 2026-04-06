@@ -1,5 +1,5 @@
 import { Target, Eye, Award, Users, Hammer, ShieldCheck } from "lucide-react";
-import teamImg from "@/assets/team-work.jpg";
+import toolsImg from "@/assets/demolition-tools.jpg";
 
 const values = [
   { icon: ShieldCheck, title: "Безопасность", desc: "Строгое соблюдение техники безопасности на каждом объекте" },
