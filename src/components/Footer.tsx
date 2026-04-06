@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
 import { Phone, MapPin, Clock } from "lucide-react";
-import siteQr from "@/assets/site-qr.png";
 
 const Footer = () => (
   <footer className="bg-secondary border-t border-border">
     <div className="container mx-auto section-padding">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
         <div>
           <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
             ДЕМОНТАЖ<span className="text-primary">МИНСК</span>
