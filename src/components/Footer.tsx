@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
 import { Phone, MapPin, Clock } from "lucide-react";
-import siteQr from "@/assets/site-qr.png";
 
 const Footer = () => (
   <footer className="bg-secondary border-t border-border">
     <div className="container mx-auto section-padding">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
         <div>
           <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
             ДЕМОНТАЖ<span className="text-primary">МИНСК</span>
@@ -38,16 +37,8 @@ const Footer = () => (
             <div className="flex items-center gap-2 text-muted-foreground text-sm">
               <Clock className="w-4 h-4 text-primary" /> Пн-Сб: 8:00 - 20:00
             </div>
-        </div>
-
-        <div>
-          <h4 className="font-heading text-sm tracking-wider text-primary mb-4">QR-КОД</h4>
-          <div className="bg-background p-3 rounded-lg inline-block">
-            <img src={siteQr} alt="QR-код сайта" className="w-28 h-28" />
           </div>
-          <p className="text-muted-foreground text-xs mt-2">Отсканируйте для перехода на сайт</p>
         </div>
-      </div>
       </div>
 
       <div className="mt-12 pt-6 border-t border-border text-center text-muted-foreground text-xs">
