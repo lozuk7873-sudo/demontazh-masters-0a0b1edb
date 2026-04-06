@@ -17,7 +17,7 @@ const advantages = [
 const services = [
   { img: demoWalls, title: "Демонтаж стен", desc: "Снос перегородок и несущих конструкций" },
   { img: demoBathroom, title: "Демонтаж сантехники", desc: "Демонтаж ванн, унитазов, раковин" },
-  { img: beforeAfter1, title: "Полный демонтаж", desc: "Комплексный демонтаж квартир под ключ" },
+  { img: demoApartment, title: "Полный демонтаж", desc: "Комплексный демонтаж квартир под ключ" },
 ];
 
 const Index = () => (
