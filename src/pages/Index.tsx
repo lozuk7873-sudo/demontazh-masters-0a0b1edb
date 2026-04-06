@@ -3,7 +3,7 @@ import { Shield, Clock, Truck, BadgeCheck, Phone, ArrowRight } from "lucide-reac
 import { Button } from "@/components/ui/button";
 import ContactForm from "@/components/ContactForm";
 import heroImg from "@/assets/hero-demolition.jpg";
-import beforeAfter1 from "@/assets/before-after-1.jpg";
+import demoApartment from "@/assets/demo-apartment.jpg";
 import demoWalls from "@/assets/demo-walls.jpg";
 import demoBathroom from "@/assets/demo-bathroom.jpg";
 
